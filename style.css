@@ -1,0 +1,27 @@
+#hero-data {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#hero-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#hero-list th, #hero-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#hero-list th {
+  background-color: #f2f2f2;
+  color: #666;
+  font-weight: bold;
+}
+
+#hero-list tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
